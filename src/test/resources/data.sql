@@ -1,0 +1,16 @@
+INSERT INTO social_network_posts (post_date, author, content, view_count)
+VALUES (now(), 'A', 'Post Content', 1),
+       (now(), 'B', 'Post Content.', 11214),
+       (now(), 'A', 'Post Content.', 456),
+       (now(), 'B', 'Post Content.', 789),
+       (now(), 'A', 'Post Content.', 789),
+       (now(), 'B', 'Post Content.', 5780),
+       (now(), 'C', 'Post Content.', 456),
+       (now(), 'B', 'Post Content.', 67),
+       (now(), 'C', 'Post Content.', 678678),
+       (now(), 'B', 'Post Content.', 678),
+       (now(), 'A', 'Post Content.', 567860),
+       (now(), 'D', 'Post Content.', 5880),
+       (now(), 'D', 'Post Content.', 76788),
+       (now(), 'D', 'Post Content.', 56780),
+       (now(), 'D', 'Post Content.', 56780);
