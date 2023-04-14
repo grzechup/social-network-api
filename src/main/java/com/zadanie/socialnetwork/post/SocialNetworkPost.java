@@ -1,12 +1,10 @@
 package com.zadanie.socialnetwork.post;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.sun.istack.NotNull;
 import lombok.*;
 
 import javax.persistence.*;
 import java.math.BigInteger;
-import java.time.ZonedDateTime;
 import java.util.Date;
 
 @NoArgsConstructor

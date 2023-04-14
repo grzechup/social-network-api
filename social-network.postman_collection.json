@@ -75,11 +75,14 @@
 		{
 			"name": "localhost:8080/api/post/1",
 			"request": {
+				"auth": {
+					"type": "noauth"
+				},
 				"method": "PUT",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\n    \"content\":\"nowy content\"\n}",
+					"raw": "{\n    \"content\":\"nowy content\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
